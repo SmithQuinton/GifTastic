@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" src="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">GifTastic</a>
-                
-              
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></form>
-                  
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Add a Team" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    Search
-                </button>
-            </form>
-        </div>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">GifTastic</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search" id="team-input">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="add-teams">Add Teams</button>
+        </form>
     </nav>
 
-    <div id="button-spacing">
-        <button type="button" class="btn btn-info">New York Knicks</button>
-        <button type="button" class="btn btn-info">New York Nets</button>
-        <button type="button" class="btn btn-info">Boston Celtics</button>
-        <button type="button" class="btn btn-info">New York Yankees</button>
-    </div>
-
 </body>
-<script type="text/javascript" src="assets/app.js"></script>
+<script src="assets/app.js"></script>
+
 </html>
